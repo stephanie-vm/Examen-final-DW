@@ -24,7 +24,6 @@ body{
 #nav{
     float:bottom;
     width:821;
-    /*position: absolute;*/
 }
 #nav-lista {
     list-style: none;
@@ -43,4 +42,39 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-decoration: none;
+}
+#content-info-1 h2{
+    color: #d3001c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+#content-info-1 p{
+    color:#666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#content-info-2 h2{
+    color: #8c0013;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.box1 + .box2{
+    width: 437px;
+    float:left
+}
+.box1 + .box2{
+    background-color: #f5f3f3;
+    margin: 0 33px 0 33px;
+    display: inline;
+}
+/*Footer*/
+#footer a{
+    text-decoration:none;
+}
+#footer{
+    background-color:#f5f3f3;
+    padding: 31px 0px 37px 0px;
+    display: block;
 }
