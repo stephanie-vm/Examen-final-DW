@@ -1,0 +1,46 @@
+/*GLOBALES*/
+body{
+    margin: 0;
+    border-top:11px solid #ededed;
+}
+
+/*HELPERS*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*HEADER*/
+
+#logo{
+    padding: 0 0 0 98px;
+}
+#nav{
+    float:bottom;
+    width:821;
+    /*position: absolute;*/
+}
+#nav-lista {
+    list-style: none;
+    margin: 35px 0 0 0;
+    padding: 0 0 0 71px;
+    border-bottom: 6px solid #676766;
+}
+#nav-lista li{
+    float: left;
+}
+#nav-lista li + li{
+    margin-left: 53px;
+}
+#nav-lista a{
+    color: #8d8d8c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
